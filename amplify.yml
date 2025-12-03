@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci --silent
+        - npm install --silent
     build:
       commands:
         - npm run build
